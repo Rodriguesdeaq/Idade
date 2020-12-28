@@ -1,0 +1,25 @@
+algoritmo "Idade"
+
+var
+ano, ano_atual, idade: inteiro
+idade_descubra, ano_descubra, ano_nasceu: inteiro
+
+inicio
+escreval ("Em que ano você nasceu?")
+leia (ano)
+escreval ("Qual é o ano atual? ")
+leia (ano_atual)
+idade <- (ano_atual - ano)
+escreval ("Você vai ter que colocar",idade," velas no seu bolo! ")
+
+escreval ("Se você não lembra o ano que nasceu, vamos lá")
+escreval ("Qual é a sua idade atual?")
+leia (idade_descubra)
+escreval ("Qual é o ano atual?")
+leia (ano_descubra)
+ano_nasceu <- (ano_descubra - idade_descubra)
+escreva ("Você nasceu em",ano_nasceu)
+
+
+
+fimalgoritmo
